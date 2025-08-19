@@ -394,7 +394,7 @@ body {
   position: relative;
   padding: 80px 20px;
   text-align: center;
-  background-image: url("img/libros.jpg");
+  background-image: url("img/fondo\ estatuto.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -492,7 +492,7 @@ body {
 
 /* Imagen de fondo */
 .estatuto-bg {
-  background-image: url("img/fondo\ estatuto.jpg"); /* tu imagen 3000x2000 */
+  background-image: url("img/estatuto.jpg"); /* tu imagen 3000x2000 */
   background-size: cover;
   background-position: center;
   filter: brightness(0.45);
@@ -838,3 +838,4 @@ body {
     margin: 10px 0;
   }
 }
+
