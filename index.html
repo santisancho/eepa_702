@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Escuela de Adultos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav class="navbar">
+  <div class="logo-container">
+    <img src="img/logo 702.png.png" alt="Logo Escuela" class="logo">
+  </div>
+
+  <!-- Botón hamburguesa -->
+  <div class="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <ul class="nav-links">
+    <li><a href="#nosotros">Nosotros</a></li>
+    <li><a href="#diseño">Diseño</a></li>
+    <li><a href="#reg-organico">Reg. Orgánico</a></li>
+    <li><a href="#estatuto">Estat. Docente</a></li>
+    <li><a href="#guia">Guía para la intervención</a></li>
+    <li><a href="#art">Art.</a></li>
+  </ul>
+</nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <video autoplay muted loop playsinline class="video-bg">
+    <source src="img/bandera hero 2.mp4" type="video/mp4">
+  </video>
+  <div class="overlay"></div>
+  <div class="hero-text">
+     <div>
+    <h1>Aprender es crecer,<br>y crecer es abrir caminos</h1>
+         <a href="#nosotros" class="btn-hero">Conócenos</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- Nosotros -->
+<section id="nosotros" class="nosotros-section">
+  <div class="section-header">
+    <h2>Nosotros</h2>
+    <p class="section-subtitle">
+      A quienes hoy concluyen este importante capítulo, los felicitamos por su perseverancia y dedicación.
+      Este logro es mucho más que una terminalidad: es la puerta a nuevas oportunidades, el ejemplo para las generaciones
+      que los rodean y la confirmación de que la educación transforma vidas.
+    </p>
+  </div>
+
+  <!-- BOTONES DE FILTRO -->
+  <div class="filter-buttons">
+    <button data-filter="all" class="active" type="button">Todas</button>
+    <button data-filter="sede" type="button">Sede</button>
+    <button data-filter="fuera" type="button">Fuera de sede</button>
+    <button data-filter="cea705" type="button">CEA 705/02</button>
+    <button data-filter="cea706" type="button">CEA 706/02</button>
+    <button data-filter="cea707" type="button">CEA 707/02</button>
+  </div>
+
+  <!-- SEDE -->
+  <div class="group" data-category="sede">
+    
+    <div class="card-grid">
+      <div class="card"><img src="img/maestras 1.jpg" alt="Maestra 1"><p>Docentes.</p></div>
+      <div class="card"><img src="img/maestras 2.jpg" alt="Maestra 2"><p>Equipo de Orientación.</p></div>
+      <div class="card"><img src="img/maestras 3.jpg" alt="Maestra 3"><p>Profe de Inglés</p></div>
+      <div class="card"><img src="img/maestas 4.jpg" alt="Maestra 4"><p>Auxiliares</p></div>
+      <div class="card"><img src="img/inspector.jpg" alt="Inspector"><p>Inspector de la Modalidad</p></div>
+      <div class="card"><img src="img/maestras 22.jpg" alt="Maestra 22"><p>Equipo de Conducción</p></div>
+      <div class="card"><img src="img/inspectora.jpg" alt="Inspectora"><p>Inspectora Distrital</p></div>
+    </div>
+  </div>
+
+  <!-- FUERA DE SEDE -->
+  <div class="group" data-category="fuera">
+    
+    <div class="card-grid">
+      <div class="card"><img src="img/maestras 5.jpg" alt=""><p>Turno vespertino Barrio San Cayetano</p></div>
+      <div class="card"><img src="img/maestras 6.jpg" alt=""><p>Turno vespertino Barrio Otamendi</p></div>
+      <div class="card"><img src="img/maestras 7.jpg" alt=""><p>Turno mañana Barrio Lubo</p></div>
+      <div class="card"><img src="img/maestras 8.jpg" alt=""><p>Turno mañana Barrio Sarmiento</p></div>
+      <div class="card"><img src="img/maestras 9.jpg" alt=""><p>Turno tarde Barrio Las Acacias</p></div>
+      <div class="card"><img src="img/maestras 20.jpg" alt=""><p>Turno mañana Asilo Hospital Municipal</p></div>
+    </div>
+  </div>
+
+  <!-- CEA 705/02 -->
+  <div class="group" data-category="cea705">
+    
+    <div class="card-grid">
+      <div class="card"><img src="img/maestras 10.jpg" alt=""><p>Turno tarde Barrio Las Acacias </p></div>
+      <div class="card"><img src="img/maestras 11.jpg" alt=""><p>Turno tarde Barrio Lubo</p></div>
+      <div class="card"><img src="img/maestras 12.jpg" alt=""><p>Turno vespertino Barrio San Cayetano</p></div>
+    </div>
+  </div>
+
+  <!-- CEA 706/02 -->
+  <div class="group" data-category="cea706">
+   
+    <div class="card-grid">
+      <div class="card"><img src="img/maestras 13.jpg" alt=""><p>Turno tarde Barrio Lubo</p></div>
+      <div class="card"><img src="img/maestras 14.jpg" alt=""><p>Turno tarde Barrio Del Pino</p></div>
+      <div class="card"><img src="img/maestras 19.jpg" alt=""><p>Turno mañana Barrio La Josefa</p></div>
+    </div>
+  </div>
+
+  <!-- CEA 707/02 -->
+  <div class="group" data-category="cea707">
+    
+    <div class="card-grid">
+      <div class="card"><img src="img/maestras 15.jpg" alt=""><p>Turno tarde Barrio Lubo</p></div>
+      <div class="card"><img src="img/maestras 16.jpg" alt=""><p>Turno mañana Barrio San Cayetano</p></div>
+      <div class="card"><img src="img/maestras 17.jpg" alt=""><p>Turno mañana Barrio Lubo</p></div>
+      <div class="card"><img src="img/maestras 18.jpg" alt=""><p>Turno tarde Barrio Santa Lucía</p></div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- Diseno -->
+<section id="diseño" class="diseno-section">
+ 
+  <video autoplay muted loop playsinline class="diseno-bg-video">
+    <source src="img/diseño.mp4" type="video/mp4">
+  </video>
+
+  <!-- Contenido principal -->
+  <div class="diseno-content">
+    <h2>Diseño Curricular</h2>
+    <p>
+      La Educación Primaria de la modalidad de Jóvenes, Adultos y Adultos Mayores está pensada para garantizar el derecho a la educación a lo largo de toda la vida. Se trata de una propuesta inclusiva, flexible y significativa, que reconoce la diversidad de trayectorias, saberes y experiencias de cada estudiante.
+    </p>
+
+    <ul>
+      <li>📝 Brindar una formación integral, que fortalezca la lectura, la escritura, el pensamiento lógico-matemático y el conocimiento del mundo social, cultural y natural.</li>
+      <li>🌱 Favorecer la construcción de ciudadanía, promoviendo valores de respeto, solidaridad, participación y responsabilidad.</li>
+      <li>🔄 Reconocer y valorar los saberes previos de los estudiantes, integrándolos al proceso de enseñanza y aprendizaje.</li>
+      <li>🤝 Acompañar los proyectos de vida personales y comunitarios, ofreciendo herramientas para el mundo del trabajo, la vida social y el ejercicio pleno de derechos.</li>
+    </ul>
+
+    <p>
+      El diseño curricular se organiza en campos de conocimiento que articulan contenidos básicos y saberes relevantes para el presente, orientados a que cada persona pueda continuar estudios posteriores, mejorar sus oportunidades laborales y enriquecer su vida cotidiana.
+    </p>
+
+    <p>
+      De este modo, la escuela se convierte en un espacio de encuentro, inclusión y transformación, donde aprender no tiene edad y cada logro abre nuevas posibilidades.
+    </p>
+
+    <!-- Botón con efecto tarjeta -->
+    <a href="https://share.google/I8FWFXDNWrLLw3rmL" target="_blank" class="btn-pdf">
+      📄 Ver Diseño Curricular
+    </a>
+  </div>
+</section>
+
+
+
+
+
+<!-- Seccion de reglamento organico -->
+<section id="reg-organico" class="reglamento-section">
+  <div class="overlay"></div>
+  <div class="reglamento-content">
+    <h2>Reglamento Orgánico</h2>
+    <p class="intro">
+      El Reglamento Orgánico constituye la base normativa que organiza el funcionamiento de la institución. 
+      Su propósito es garantizar un marco de <strong>convivencia armónica, democrática y participativa</strong>, 
+      donde los derechos y deberes de todos los actores estén claramente definidos.
+    </p>
+    <ul class="highlights">
+      <li>⚖️ Igualdad de oportunidades para el acceso y la permanencia en la educación.</li>
+      <li>👥 Participación activa de estudiantes, docentes, directivos y familias.</li>
+      <li>🏫 Organización pedagógica y administrativa con objetivos claros.</li>
+      <li>🌱 Fortalecimiento de los valores de respeto, solidaridad y responsabilidad.</li>
+    </ul>
+    <div class="pdf-card">
+      <a href="img/reglamento organico.pdf" target="_blank">📑 Leer reglamento completo</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- Seccion estatuto -->
+<section id="estatuto" class="estatuto-section">
+  <!-- Imagen de fondo -->
+  <div class="estatuto-bg"></div>
+
+  <!-- Contenido -->
+  <div class="estatuto-content">
+    <h2>Estatuto Docente</h2>
+    <p>
+      El Estatuto Docente constituye la base legal y normativa que regula la organización,
+      los derechos, deberes y responsabilidades de los y las docentes en ejercicio. 
+      Este marco normativo garantiza la estabilidad laboral, la igualdad de oportunidades,
+      el desarrollo profesional y la defensa de los derechos adquiridos a lo largo de la carrera.
+    </p>
+    <p>
+      Además, establece los principios que orientan la función docente como pilar fundamental
+      de la educación pública, asegurando que cada maestro y maestra pueda desempeñar su tarea
+      en un marco de respeto, reconocimiento y compromiso social.
+    </p>
+
+    <!-- Botón -->
+    <a href="img/estatuto docente.pdf" target="_blank" class="btn-pdff">
+      📄 Leer Estatuto Docente Completo
+    </a>
+  </div>
+</section>
+
+
+<!-- Guia de intevencion -->
+<section id="guia" class="guia-section">
+  <!-- Video de fondo -->
+  <video autoplay muted loop playsinline class="guia-bg-video">
+    <source src="img/guia para la intervencion.mp4" type="video/mp4">
+  </video>
+
+  <!-- Contenido principal -->
+  <div class="guia-content">
+    <h2>Guía para la Intervención</h2>
+    <p>
+      La presente guía busca orientar a los equipos docentes y directivos en la
+      intervención pedagógica, institucional y comunitaria, promoviendo prácticas
+      que favorezcan la inclusión, la participación activa y el aprendizaje
+      significativo de jóvenes y adultos.
+    </p>
+    <p>
+      Se trata de una herramienta dinámica, flexible y situada, que ofrece
+      criterios, orientaciones y recursos para el trabajo en contextos diversos,
+      acompañando el desarrollo de proyectos institucionales y personales.
+    </p>
+    <p>
+      Esta guía no es un manual cerrado, sino una propuesta abierta que
+      invita a reflexionar, compartir experiencias y construir estrategias colectivas,
+      siempre en función del derecho a la educación y del fortalecimiento del vínculo
+      entre escuela y comunidad.
+    </p>
+
+    <!-- Botón para PDF -->
+    <a href="img/guia de intervencion .pdf" target="_blank" class="btn-pdfff">
+      📄 Ver Guía Completa
+    </a>
+  </div>
+</section>
+
+
+
+<section id="art" class="art-section">
+  <div class="art-overlay"></div>
+
+  <div class="art-content">
+    <h2>ART - Guía de Actuación</h2>
+    <p>
+      Esta guía brinda los pasos a seguir en casos de <strong>accidentes de trabajo, in itinere 
+      o enfermedades profesionales</strong>. Explica cómo realizar la denuncia, los datos a presentar, 
+      y el acceso a las prestaciones médicas correspondientes.
+    </p>
+    <p>
+      También detalla el uso de la plataforma de denuncias web, la aplicación <strong>MiART</strong>, 
+      y los procedimientos administrativos como cambios de usuario, blanqueo de claves y 
+      notificaciones mediante SUNA.
+    </p>
+    <p>
+      Es fundamental que cada establecimiento conozca y mantenga accesible esta información 
+      para garantizar una respuesta rápida y eficiente ante cualquier eventualidad.
+    </p>
+
+    <!-- Botón PDF -->
+    <a href="img/Art.pdf" target="_blank" class="btn-pdffff">
+      📄 Ver Guía ART Completa
+    </a>
+  </div>
+</section>
+
+
+<!-- Botón flotante de Instagram -->
+<a href="https://www.instagram.com/eepa_702/" target="_blank" class="instagram-float">
+  <img src="img/instagram 2.png" alt="Instagram">
+</a>
+
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-logo">
+      <img src="img/logo 702.png.png" alt="Logo Escuela">
+    </div>
+    <nav class="footer-nav">
+      <ul>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#diseño">Diseño Curricular</a></li>
+        <li><a href="#reg-organico">Reglamento Orgánico</a></li>
+        <li><a href="#estatuto">Estatuto Docente</a></li>
+        <li><a href="#guia">Guía Intervención</a></li>
+        <li><a href="#art">ART</a></li>
+      </ul>
+    </nav>
+  </div>
+  <p class="footer-copy">© 2025 Escuela de Adultos - Todos los derechos reservados</p>
+</footer>
+
+
+
+<script>
+  // Efecto de scroll para navbar
+  window.addEventListener('scroll', () => {
+    const nav = document.querySelector('.navbar');
+    nav.classList.toggle('scrolled', window.scrollY > 50);
+  });
+</script>
+
+<script src="java.js"></script>
+</body>
+</html>
